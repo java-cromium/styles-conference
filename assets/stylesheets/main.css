@@ -116,6 +116,11 @@ h2 {
 h3 {
   font-size: 21px;
 }
+
+section.teaser > a > h3, section.teaser > a + p {
+  color: white;
+}
+
 h4 {
   font-size: 18px;
 }
@@ -148,6 +153,10 @@ a:hover {
 }
 p a {
   border-bottom: 1px solid #dfe2e5;
+}
+
+section.teaser > a:hover > h5, section.teaser > a:hover > h3  {
+  color: #ffa98d;
 }
 
 /*
