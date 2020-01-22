@@ -33,7 +33,7 @@ body {
 .container,
 .grid {
   margin: 0 auto;
-  width: 960px;
+  width: 1080px;
 }
 .container {
   padding-left: 30px;
@@ -84,7 +84,7 @@ body {
 
 .row,
 .row-alt {
-  min-width: 960px;
+  min-width: 1080px;
 }
 
 .row {
@@ -287,6 +287,11 @@ section.teaser > a:hover > h5, section.teaser > a:hover > h3  {
   font-size: 24px;
   font-weight: 100;
 }
+
+ /* section.row.main-row > div.grid > section.teaser > a {
+  text-decoration: line-through;
+ } */
+
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
