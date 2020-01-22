@@ -100,6 +100,16 @@ body {
   padding: 44px 0 22px 0;
 }
 
+.main-row {
+    background: #f1e767;
+    background: -moz-linear-gradient(left, #f1e767 0%, #feb645 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #f1e767), color-stop(100%, #feb645));
+    background: -webkit-linear-gradient(left, #f1e767 0%, #feb645 100%);
+    background: -o-linear-gradient(left, #f1e767 0%, #feb645 100%);
+    background: -ms-linear-gradient(left, #f1e767 0%, #feb645 100%);
+    background: linear-gradient(to right, #f1e767 0%, #feb645 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+}
 
 /*
   ========================================
@@ -167,7 +177,7 @@ p a {
 }
 
 section.teaser > a:hover > h5, section.teaser > a:hover > h3  {
-  color: #ffa98d;
+  color: #669900;
 }
 
 /*
