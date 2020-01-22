@@ -84,6 +84,7 @@ body {
 
 .row {
   background: #fff;
+  background: linear-gradient(to right, #648880, #293f50);
   min-width: 960px;
   padding: 66px 0 44px 0;
 }
