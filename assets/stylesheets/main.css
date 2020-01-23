@@ -117,7 +117,7 @@ body {
   ========================================
 */
 h1 {
-  text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+  text-shadow: 3px 6px 2px rgba(0, 0, 0, .1);
 }
 
 h1, h2, h3, h4 {
@@ -158,6 +158,21 @@ cite,
 em {
   font-style: italic;
 }
+
+/*
+  ========================================
+  Leads
+  ========================================
+*/
+
+.lead {
+  text-align: center;
+}
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
+}
+
 
 /*
   ========================================
@@ -226,11 +241,11 @@ section.teaser > a:hover > h5, section.teaser > a:hover > h3  {
   text-align: right;
 }
 .primary-nav {
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 200;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  word-spacing: 1.2rem;
+  word-spacing: 0.9rem;
 }
 
 .primary-header a,
