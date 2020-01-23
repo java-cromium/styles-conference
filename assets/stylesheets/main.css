@@ -240,7 +240,7 @@ section.teaser > a:hover > h5, section.teaser > a:hover > h3  {
 
 .primary-header a:hover,
 .primary-footer a:hover {
-    color: #648880;
+    color: #669900;
 }
 /*
   ========================================
@@ -257,6 +257,11 @@ section.teaser > a:hover > h5, section.teaser > a:hover > h3  {
 .primary-footer small {
   float: left;
   font-weight: 400;
+}
+
+footer.primary-footer > nav.nav > a {
+    margin: 4px;
+    font-weight: 100;
 }
 
 /*
